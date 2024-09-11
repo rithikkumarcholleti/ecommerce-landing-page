@@ -1,0 +1,43 @@
+/* src/components/Header.css */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust the size of your logo */
+    width: auto; /* Maintains the aspect ratio */
+  }
+  
+  .header-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header-nav li {
+    margin-left: 20px;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .header-nav a:hover {
+    color: #007bff; /* Change the hover color */
+  }
+  

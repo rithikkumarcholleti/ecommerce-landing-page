@@ -1,0 +1,33 @@
+.product-list {
+  display: flex; /* Use flexbox to display products side by side */
+  flex-wrap: wrap; /* Allow products to wrap to the next line if needed */
+  gap: 20px; /* Add space between product items */
+  justify-content: center; /* Center the items horizontally */
+  padding: 20px; /* Add some padding around the list */
+}
+
+.product-item {
+  background-color: #f8f8f8; /* Light background for product item */
+  border: 1px solid #ddd; /* Border around each product */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  width: 250px; /* Fixed width for each product item */
+  padding: 16px; /* Padding inside each product item */
+  text-align: center; /* Center align text */
+}
+
+.product-item img {
+  width: 100%; /* Image takes full width of the product item */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Rounded corners for images */
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.product-item h2 {
+  font-size: 18px; /* Font size for product name */
+  margin: 8px 0; /* Margin above and below the name */
+}
+
+.product-item p {
+  margin: 4px 0; /* Margin between paragraphs */
+}
